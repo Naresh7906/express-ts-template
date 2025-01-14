@@ -1,0 +1,28 @@
+{
+  "name": "express-template",
+  "version": "0.0.1",
+  "description": "template for basic backend using express",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.ts",
+    "dev": "nodemon src/index.ts",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Naresh Shinde",
+    "email": "nareshshinde7906@gmail.com",
+    "url": "https://github.com/Naresh7906"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/dotenv": "^8.2.3",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.6",
+    "nodemon": "^3.1.9"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
